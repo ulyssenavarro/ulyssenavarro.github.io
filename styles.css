@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: none;
+
+
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: -65px;
+  min-width: 100%;
+  min-height: 100%;
+  object-position: center
+
+
+}
+
+.menu {
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	top: 30px;
+	left: 40px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px; 
+	color: white;
+	text-shadow: 1px 1px #000000;
+	
+
+
+
+
+}
+
+
+#titre {
+	font-size: 50px;
+
+
+}
+
+
+
+
+#Portfolio {
+	font-size: 40px;
+
+
+}
+    
+
+a.lien1:link {
+text-decoration: none;
+cursor:pointer;
+color: white;
+
+}
+
+a.lien1:visited{
+	color: white;
+
+
+}
+
+a.lien1:hover{
+	color:grey;
+}
