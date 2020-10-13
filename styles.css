@@ -16,18 +16,33 @@ body {
 	position: absolute;
 	z-index: 10;
 	margin: 0;
-	top: 30px;
-	left: 40px;
+	top: 20px;
+	left: 20px;
 	font-family: 'Poppins', sans-serif;
-	font-size: 30px; 
+	font-size: 40px; 
 	color: white;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px #99ccff;
 }
 #titre {
-	font-size: 50px;
+	position: absolute;
+	font-size: 80px;
+	top: 10px;
+	text-align: center;
+	
+	
 }
 #Portfolio {
+	position: fixed;
+	font-size: 60px;
+	top: 270px;
+	left: 990px;
+
+}
+#Contact {
+	position: fixed;
 	font-size: 40px;
+	top: 470px;
+	left: 125px;
 }
 a.lien1:link {
 text-decoration: none;
