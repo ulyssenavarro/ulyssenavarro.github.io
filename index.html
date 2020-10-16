@@ -4,6 +4,7 @@
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="styles.css" type="text/css"/>
 <link rel="stylesheet" href="https://use.typekit.net/piv7yia.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <style>
  @import url("https://use.typekit.net/piv7yia.css");
  </style>
@@ -11,26 +12,40 @@
 	
 <body>
  <div class="menu">
-  <div id = "titre">  Ulysse Navarro </div>	
+  <div id = "titre">  
+    Ulysse Navarro </div>	
   <div id = "Portfolio">
    <a class="lien1" href="PortfolioUlysseNavarro.pdf" download target="_blank">
     Portfolio </a>
-   <style>
-   @import url("https://use.typekit.net/piv7yia.css");
-   </style> 
   </div>	
   <div id = "Contact">
    <a class="lien1" href="mailto:ulysse-n@live.fr">
     @ </a>
   </div>
-	
+ </div>
+  <div id="video"> 
+  <video width="100%" height="auto" autoplay muted loop id="myVideo" onClick="playPause();">
+  <source src="1.mp4" type="video/mp4">
+  <source src="1.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
   </div>
-  <div id="video">
-   <video width="100%" height="auto" autoplay muted loop id="myVideo">
-   <source src="1.mp4" type="video/mp4">
-   <source src="1.ogg" type="video/ogg">
-    	Your browser does not support the video tag.
-   </div>
+   <script> 
+   var myVideo=document.getElementById("myVideo"); 
+   function playPause()
+   { 
+   if (myVideo.paused) 
+       myVideo.play(); 
+   else 
+      myVideo.pause(); 
+   } 
+   </script>
+<div id="insta">
+	<a class="lien1" href="https://www.instagram.com/ulysse_navarro/?hl=fr" target="_blank">
+    <i class="fa fa-instagram"></i>
+
+</div>
+
 </body>
 	 
 </html>

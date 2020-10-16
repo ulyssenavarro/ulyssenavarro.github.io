@@ -17,41 +17,57 @@ body {
 	z-index: 10;
 	margin: 0;
 	top: 20px;
-	left: 20px;
-	font-family: 'Poppins', sans-serif;
+	left: 40px;
 	font-size: 40px; 
-	color: white;
-	text-shadow: 1px 1px #99ccff;
+    text-shadow: 1px 1px 4px #cce6ff, -1px -1px 4px #ffe6b3;
 }
 #titre {
 	position: absolute;
-	font-size: 80px;
-	top: 10px;
+	font-size: 85px;
+	top: 20px;
+	left: 20px;
 	text-align: center;
-	
-	
+	font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 4px #cce6ff, -1px -1px 4px #ffe6b3
+    	
 }
 #Portfolio {
 	position: fixed;
 	font-size: 60px;
-	top: 270px;
-	left: 990px;
+	top: 160px;
+	left: 895px;
+	font-family: 'Poppins', sans-serif;
+	color: white ;
 
 }
 #Contact {
 	position: fixed;
-	font-size: 40px;
-	top: 470px;
-	left: 125px;
+	font-size: 55px;
+	top: 430px;
+	left: 195px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
 }
+
+#insta {
+  position: fixed;
+  left: 1090px;
+  top: 445px;
+  font-size: 54px;
+  text-shadow: 1px 1px 4px #cce6ff, -1px -1px 4px #ffe6b3;
+
+}
+
 a.lien1:link {
 text-decoration: none;
 cursor:pointer;
-color: white;
+color: transparent;
+
 }
 a.lien1:visited{
 	color: white;
 }
 a.lien1:hover{
-	color:grey;
+	color:white;
 }
