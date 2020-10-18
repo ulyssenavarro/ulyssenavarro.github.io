@@ -3,59 +3,68 @@ body {
 	padding: 0;
 	height: 100%;
 	overflow: none;
+	min-width: 320px;
 }
-#video {
+* {
+  box-sizing: border-box;
+}
+
+#myVideo {
   position: fixed;
   right: 0;
-  bottom: -65px;
-  min-width: 100%;
-  min-height: 100%;
-  object-position: center
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
 }
+
 .menu {
 	position: absolute;
 	z-index: 10;
 	margin: 0;
 	top: 20px;
-	left: 40px;
-	font-size: 40px; 
-    text-shadow: 1px 1px 4px #cce6ff, -1px -1px 4px #ffe6b3;
+	left: 40px; 
+    color:transparent;
 }
 #titre {
 	position: absolute;
-	font-size: 85px;
-	top: 20px;
-	left: 20px;
+	font-size: 7vw;
+	top: 1.6vw;
+	left: 1.6vw;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
-    color: white;
-    text-shadow: 1px 1px 4px #cce6ff, -1px -1px 4px #ffe6b3
-    	
+    color: #e6f2ff;    	
 }
 #Portfolio {
 	position: fixed;
-	font-size: 60px;
-	top: 160px;
-	left: 895px;
+	font-size: 5vw;
+	top: 25%;
+	left: 73%;
 	font-family: 'Poppins', sans-serif;
-	color: white ;
+	color:transparent;
+	text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
+	 
 
 }
 #Contact {
 	position: fixed;
-	font-size: 55px;
-	top: 430px;
-	left: 195px;
+	font-size: 5vw;
+	top: 75%;
+	left: 15%;
 	font-family: 'Poppins', sans-serif;
 	color: white;
+	text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
 }
 
 #insta {
   position: fixed;
-  left: 1090px;
-  top: 445px;
-  font-size: 54px;
-  text-shadow: 1px 1px 4px #cce6ff, -1px -1px 4px #ffe6b3;
+  left: 82%;
+  top: 75%;
+  font-size: 5vw;
+  text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
+  
 
 }
 
