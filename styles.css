@@ -30,7 +30,7 @@ body {
 }
 #titre {
 	position: absolute;
-	font-size: 7vw;
+	font-size: 6.5vw;
 	top: 1.6vw;
 	left: 1.6vw;
 	text-align: center;
@@ -41,7 +41,7 @@ body {
 	position: fixed;
 	font-size: 5vw;
 	top: 25%;
-	left: 73%;
+	left: 77%;
 	font-family: 'Poppins', sans-serif;
 	color:transparent;
 	text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
@@ -60,7 +60,7 @@ body {
 
 #insta {
   position: fixed;
-  left: 82%;
+  left: 87%;
   top: 75%;
   font-size: 5vw;
   text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
