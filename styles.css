@@ -5,9 +5,7 @@ body {
 	overflow: none;
 	min-width: 320px;
 }
-* {
-  box-sizing: border-box;
-}
+
 
 #myVideo {
   position: fixed;
@@ -28,18 +26,19 @@ body {
 }
 #titre {
 	position: absolute;
-	font-size: 6.5vw;
-	top: 3vw;
+	font-size: 7vw;
+	top: 2vw;
 	left: 3vw;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
-    color: #e6f2ff;    	
+    color: #e6f2ff; 
+
 }
 #Portfolio {
 	position: fixed;
 	font-size: 5vw;
-	top: 10vw;
-	left: 77%;
+	top: 7vw;
+	left: 75%;
 	font-family: 'Poppins', sans-serif;
 	color:transparent;
 	text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
@@ -49,8 +48,8 @@ body {
 #Contact {
 	position: fixed;
 	font-size: 5vw;
-	top: 75%;
-	left: 12%;
+	top: 83%;
+	left: 10%;
 	font-family: 'Poppins', sans-serif;
 	color: white;
 	text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
@@ -59,7 +58,7 @@ body {
 #insta {
   position: fixed;
   left: 87%;
-  top: 75%;
+  top: 85%;
   font-size: 5vw;
   text-shadow: 0px 0px 2px #66c2ff, -2px -2px 6px #ffe6b3;
   
