@@ -25,43 +25,68 @@ body {
     color:transparent;
 }
 #titre {
-	position: absolute;
-	font-size: 7vw;
-	top: 2vw;
-	left: 3vw;
-	text-align: center;
-	font-family: 'Poppins', sans-serif;
+	position: fixed;
+	font-size: 6vw;
+	top: 4vw;
+	left: 5vw;
+	line-height: 1;
+	text-align: left;
+	font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 800;
     color: #e6f2ff; 
+
+   }
+#titre span {
+font-size: 27%; 
+font-weight: 100;
+line-height: 0;
+
+}
+#def {
+	position: fixed;
+  font-size: 50%;   
+  top: 35%;
+  left: 4.8%;
+  text-align: right;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: #e6f2ff ;
+
 
 }
 #Portfolio {
 	position: fixed;
 	font-size: 5vw;
 	top: 7vw;
-	left: 75%;
-	font-family: 'Poppins', sans-serif;
+	right: 6%;
+	font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 	color:transparent;
-	text-shadow: 0px 0px 1px #66c2ff, 0px 0px 8px #ffe6b3;
+	text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
 	 
 
 }
 #Contact {
 	position: fixed;
-	font-size: 5vw;
-	top: 83%;
-	left: 10%;
-	font-family: 'Poppins', sans-serif;
-	color: white;
-	text-shadow: 0px 0px 1px #66c2ff, 0px 0px 8px #ffe6b3;
+	font-size: 6vw;
+	bottom: 4vw;
+	left: 8%;
+	font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+	color:transparent;
+	text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
 }
 
 #insta {
   position: fixed;
-  left: 87%;
-  top: 85%;
+  right: 8%;
+  bottom: 4vw;
   font-size: 5vw;
-  text-shadow: 0px 0px 1px #66c2ff, 0px 0px 8px #ffe6b3;
-  
+  text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
 
 }
 
