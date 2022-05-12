@@ -9,7 +9,7 @@ body {
 
 #myVideo {
   background : white;
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   height: 100%;
