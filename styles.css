@@ -4,12 +4,11 @@ body {
 	height: 100%;
 	overflow: none;
 	min-width: 320px;
-	background-image: url(10001.jpg);
 }
 
 
 #myVideo {
-	background : black; 
+	background : url(10001.jpg); 
   position: fixed;
   right: 0;
   bottom: 0;
