@@ -8,8 +8,8 @@ body {
 
 
 #myVideo {
-  background : white;
-  position: absolute;
+	background : poster;
+  position: fixed;
   right: 0;
   bottom: 0;
   height: 100%;
