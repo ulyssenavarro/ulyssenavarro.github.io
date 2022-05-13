@@ -9,8 +9,8 @@ body {
 
 #myVideo {
 	background : url(10001.jpg);
-	background-size: center; 
-  position: fixed;
+	background-size: fixed; 
+  position: center;
   right: 0;
   bottom: 0;
   height: 100%;
