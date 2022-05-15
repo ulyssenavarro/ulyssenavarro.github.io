@@ -4,19 +4,27 @@ body {
 	height: 100%;
 	overflow: none;
 	min-width: 320px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+ 
+
 }
 
 
 #myVideo {
-	background : url(10001.jpg);
-	background-size: center; 
+	background-image: url(10001.jpg) no-repeat fixed center;;
+	background-size: cover; 
   position: fixed;
   right: 0;
   bottom: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center ;
 
 }
 
@@ -28,10 +36,10 @@ body {
 }
 #titre {
 	position: fixed;
-	font-size: 6vw;
-	top: 4vw;
-	left: 5vw;
-	line-height: 1;
+	font-size: 6.5vw;
+	top: 3%;
+	left: 2.5%;
+	line-height: 0.9;
 	text-align: left;
 	font-family: futura-pt, sans-serif;
   font-style: normal;
@@ -40,9 +48,10 @@ body {
 
    }
 #titre span {
-font-size: 27%; 
+font-size: 26%; 
 font-weight: 100;
-line-height: 0;
+line-height: 1.6;
+
 
 }
 #def {
@@ -59,15 +68,21 @@ line-height: 0;
 
 }
 #Portfolio {
+	text-align: center;
+	line-height: 1.4;
+	word-spacing: 2vw;
 	position: fixed;
 	font-size: 5vw;
-	top: 7vw;
-	right: 6%;
+	top: 4%;
+	right: 4vw;
 	font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
 	color:transparent;
 	text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
+
+
+
 	 
 
 }
@@ -85,10 +100,11 @@ line-height: 0;
 
 #insta {
   position: fixed;
-  right: 8%;
+  right: 6vw;
   bottom: 4vw;
   font-size: 5vw;
   text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
+  word-spacing: 2vw;
 
 }
 
