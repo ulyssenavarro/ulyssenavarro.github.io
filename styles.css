@@ -46,22 +46,27 @@ body {
 }
 #titre {
 	position: fixed;
-	font-size: 7vw;
-	top: 3%;
-	left: 3%;
+	font-size: 4vmax;
+	top: 7vmin;
+	left: 5vmin;
 	line-height: 0.9;
 	text-align: left;
-	font-family: futura-pt, sans-serif;
+	font-family: trajan pro, serif; 
   font-style: normal;
-  font-weight: 800;
-    color: #e6f2ff; 
+  font-weight: 100;
+  color: whitesmoke; 
+  text-shadow:inset 0px 0px 5px 5px #ffffff;
 
    }
 #titre span {
-font-size: 25%; 
+text-indent: 0.5em ;
+font-size: 2vmin; 
 font-weight: 100;
-line-height: 1.6;
+line-height: 2;
 word-spacing: 0.2vw;
+left: 3%;
+
+
 
 
 }
@@ -83,14 +88,14 @@ word-spacing: 0.2vw;
 	line-height: 1.4;
 	word-spacing: 2vw;
 	position: fixed;
-	font-size: 6vw;
-	top: 4vw;
-	right: 3vw;
-	font-family: futura-pt, sans-serif;
+	font-size: 3vmax;
+	top: 11vmin;
+	right: 8vw;
+	font-family: Lucida Console, serif;
   font-style: normal;
   font-weight: 300;
-	color:transparent;
-	text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
+	color:silver;
+	text-shadow: 0px 0px 0px silver;, 0px 0px 2px #00e6e6;
 
 
 
@@ -99,9 +104,9 @@ word-spacing: 0.2vw;
 }
 #Contact {
 	position: fixed;
-	font-size: 6vw;
-	bottom: 4vw;
-	left: 8%;
+	font-size: 4vmax;
+	bottom: 3vmin;
+	left: 5vmin;
 	font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -109,14 +114,18 @@ word-spacing: 0.2vw;
 	text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
 }
 
-#insta {
-  position: fixed;
-  right: 8%;
-  bottom: 4vw;
-  font-size: 5vw;
-  text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
-  word-spacing: 2vw;
+#liens {
 
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  transform: translate(-50%, -10%);
+  margin: 0 auto;
+  word-spacing: 15vw;
+  white-space:nowrap;
+
+  font-size: 5vmin;
+  text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
 }
 
 a.lien1:link {
