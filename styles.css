@@ -71,17 +71,6 @@ left: 3%;
 
 
 
-}
-#def {
-	position: fixed;
-  font-size: 50%;   
-  top: 35%;
-  left: 4.8%;
-  text-align: right;
-  font-family: futura-pt, sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  color: #e6f2ff ;
 
 
 }
@@ -92,29 +81,15 @@ left: 3%;
 	position: fixed;
 	font-size: 2.8vmax;
 	top: 12vmin;
-	right: 6vw;
+	right: 5vmin;
 	font-family: trajan-pro-3, serif;
   font-style: normal;
   font-weight: 300;
 	color:silver;
-	text-shadow: 0px 0px 0px silver;, 0px 0px 2px #00e6e6;
-
-
-
-	 
+	text-shadow: 0px 0px 0px silver;, 0px 0px 2px #00e6e6; 
 
 }
-#Contact {
-	position: fixed;
-	font-size: 4vmax;
-	bottom: 3vmin;
-	left: 5vmin;
-	font-family: futura-pt, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-	color:transparent;
-	text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
-}
+
 
 #liens {
 
@@ -125,9 +100,9 @@ left: 3%;
   margin: 0 auto;
   word-spacing: 15vw;
   white-space:nowrap;
-
+  color: #00e6e6;
   font-size: 5vmin;
-  text-shadow: 0px 0px 0px #00e6e6, 0px 0px 2px #ffe6b3;
+  text-shadow: 0px 0px 0px #00e6e6; 
 }
 
 a.lien1:link {
